@@ -6,4 +6,4 @@ estou aprendendo a criar sites e agora vou gerenciar
 
 estou aprendendo a criar sites e agora vou gerenciar os repositorios
 
-<a href="https://www.youtube.com"> link youtube</a>
+<a href="https://www.youtube.com" style="textdecoration: none, color:darkblue"> link youtube</a>
