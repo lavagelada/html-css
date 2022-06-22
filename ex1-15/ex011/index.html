@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pictures eles dizem</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-l.png" alt="">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos tocar musica caraio</p>
+    <!--<audio src="midia/hungria.mp3" autoplay controls></audio>-->
+    <audio preload="none" controls loop>
+        <source src="midia/hungria.mp3" type="audio/mpeg"> 
+        <source src="midia/dubai.mp3" type="audio/mpeg">
+        <!-- o type se refere a midia type logo deve ser preenchido com o tipo que eh audio/tipo de arquivo -->
+
+    </audio>
+</body>
+</html>

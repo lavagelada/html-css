@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outras formatacoes</title>
+</head>
+
+<body>
+    <h1>outras formatacoes</h1>
+    <h2>codigo fonte/ pre-formatacao</h2>
+    <p>se formos mostrar um codigo fonte no nosso site podemos usar uma formatacao monoespaçada
+        assim, de document.getElementById('teste') para <code>document.getElementById('teste')</code> usando a tag code
+    </p>
+    <p>a tag code nao faz indentação, então o codigo fica por extenso. para resolvermos esse problema usamos a tag pre englobando a tag code  
+        <pre>
+            <code>
+        num = int(input('digite um numero'))
+        if num % 2 == 0
+            print(f'o numero {num} eh par)
+        else
+            print(f'o numero {num} eh impar)
+        print('fim do programa')
+            </code>
+        </pre>
+    </p>
+    <h2>citacoes</h2>
+    <p>como diria o pai de um amigo:<q> o computador eh um burro muito rapido</q>
+    para colocar "" quando for uma citacao brve usamos a tag q (&lt;q&gt;)</p>
+    <h2>citacoes completas</h2>
+    <p>segundo fulaninho de tals em seu livro: <blockquote cite="link para o autor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam incidunt voluptas, ducimus laboriosam deserunt nobis nostrum aspernatur vel expedita quas. Quo non hic ipsa fugit doloribus, quasi ad officia.</blockquote> <br> aqui usamos a tag &lt;blockquote cite="autor"&gt;.</p>
+    <h2>abreviacoes</h2>
+    <p>podemos fazer com que o usuario descubra o que sao algumas abreviacoes como <abbr title="Hyper Text Markup Language">HTML</abbr>, ou podemos adicionar alguma info em <abbr title="ta passando o mouse pq?">algum texto</abbr> para isso usamos a tag abbr e em title colocamos o significado </p>
+    <hr>
+    <p>e tem essa tag inutil que reverte o texto assim:  Ronan para <bdo dir="rtl">Ronan</bdo> <br>a tag eh &lt;bdo&gt;</p>
+
+    </body>
+</html>

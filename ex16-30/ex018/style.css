@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*sempre que usarmos o @import, ele deve vir no inicio do documento, ou logo apos a tag <style>, lembando que ainda temos que chamar a fonte quando a formos usar*/
+body{
+font: normal normal 1em dancing script;
+color: red;
+
+}
+
+h1{
+font: normal bolder 2em arial;
+color: green;
+}

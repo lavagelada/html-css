@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de texto</title>
+    <style>
+        mark {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrit/Italico</h2>
+    <p>nesta frase temos um <b>termo em negrito</b> usando a tag b (nao semantica)</p>
+    <p>nesta frase temos um <strong>termo em destaque</strong> usando a tag strong (semantica)</p>
+    <h2>Italico/enfase</h2>
+    <p>nesta frase temos um <i>termo em italico</i> usando a tag i </p>
+    <p>nesta frase temos um <em>termo em enfase</em> usando a tag EM (semantica)</p>
+    <h2>Texto marcado</h2>
+    <p>podemos criar tambem um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.</p>
+    <p>e no outro paragrafo temos <mark>outro texto marcado</mark> no final</p>
+    <p>podemos marcar mais de uma coisa nos textos mesmo que em <mark>paragrafos diferentes</mark> que eles vao ter a mesma cor de fundo, podemos mudar a cor de fundo de todos os mark em &lt;head&gt; ou podemos mudar a cor <mark style="background-color: pink;">dentro da propria tag</mark>. este exercicio tem a primeira demonstracao de css3 dentro do codigo</p>
+    <h2>texto GRANDE e pequeno</h2>
+    <p>a tag big (nao semantica) caiu em desuso mas ainda <big>funciona</big> mas se for so para aumentar a fonte usamos css, ja para<small> textos pequenos</small>, usamos a tag small (semantica)</p>
+    <h2>texto inserido</h2>
+    <p>o <ins>texto inserido</ins> eh aquela linha para completar com alguma palavra, mas que ja vem preenchido, a antiga tag u (nao semantica) trazia o sublinhado, o que <u>ainda funciona</u>.</p>
+    <h2>texto deletado</h2>
+    <p>o texto deletado nada mais eh que o texto <del>riscado</del>, que esta la mas deve ser desconsiderado no momento </p>
+    <h2>texto sobrescrito</h2>
+    <p>podemos tambem criar um texto sobrescrito quando quisermos representar uma exponencial como metro ao quadrado m<sup>2</sup>, ou uma expressao como a<sup>0</sup>=a<sup>1</sup>+x<sup>3</sup> para isto usamos a tag sup .</p>
+    <h2>texto subscrito</h2>
+    <p>ja no texto sobscrito eh o contrario do texto sobrescrito, podemos representar H<sub>2</sub>O, usando a tag sub.</p>
+</body>
+</html>

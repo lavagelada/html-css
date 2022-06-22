@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(176, 35, 110), rgb(85, 6, 52));
+    font:normal bold 1.3em dancing script;
+
+
+}
+
+
+ul{
+    text-align: center;
+    text-justify: auto;
+    font:normal normal 1em arial;
+}

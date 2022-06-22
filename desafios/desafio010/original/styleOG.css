@@ -1,0 +1,45 @@
+@charset "UTF-80";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient( to top, rgb(20, 163, 20), rgb(149, 244, 149));
+    color: white;
+}
+
+.titulo-header{
+    padding: 15px;
+
+}
+
+
+.menu{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+
+}
+.menu-item{
+    text-decoration: none;
+    text-align: left;
+    padding-right: 20px;
+    color: white;
+    padding-bottom: 5px;
+}
+body{
+    background-color: aquamarine;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    display: block;
+    box-shadow: 1px 1px 1px  ;
+    text-align: justify;
+    padding: 30px;
+    text-indent: 20px;
+}

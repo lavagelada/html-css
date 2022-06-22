@@ -1,0 +1,15 @@
+@charset "UTF-8"
+
+h1{
+
+}
+
+body{
+/*style -> size -> weight -> family*/
+font:normal 1.2em normal, arial, times new roman;
+
+}
+
+p{
+
+}

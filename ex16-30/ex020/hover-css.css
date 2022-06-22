@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+   
+   
+}
+
+
+.div2:hover{
+    background-color: black;
+    color: rgb(65, 33, 112);
+}
+
+.div3:hover {
+    background-color: violet;
+    color: greenyellow;
+}
+.div1:hover {
+    
+    background-color: rgb(125, 6, 6);
+    font-display: none;
+    color: rgb(174, 170, 173);
+    
+}
+
+body{
+    
+}
