@@ -13,8 +13,8 @@
   background-color: grey;
 }
 
-body{
-  background-image: url(imagens/pattern004.png);
+body {
+  background-image: url("imagens/pattern004.png");
 }
 div#q1 {
   background-color: skyblue;
@@ -23,5 +23,9 @@ div#q2 {
   background-image: linear-gradient(68deg, blue, yellow);
 }
 div#q3 {
-  background-image: url('imagens/pattern003.png');
+  background-image: url("imagens/pattern003.png");
+}
+
+div#f4{
+  background-image: url(imagens/);
 }
